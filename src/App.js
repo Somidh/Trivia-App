@@ -1,7 +1,6 @@
 import React from 'react'
 import {useEffect,useState} from 'react'
 import StartPage from './component/StartPage';
-import Data from './Data/data';
 import Trivia from './component/Trivia';
 import {nanoid} from 'nanoid'
 
@@ -41,10 +40,6 @@ const options = item.incorrect_answers.map(option => option)
           optionFour = {optionFour}
           />
 })
-
-
-
-
 
 
   return (
