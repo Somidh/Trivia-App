@@ -38,7 +38,7 @@ const options = item.incorrect_answers.map(option => option)
           optionTwo ={options[1]}
           optionThree = {options[2]}
           optionFour = {optionFour}
-          />
+            />
 })
 
 
